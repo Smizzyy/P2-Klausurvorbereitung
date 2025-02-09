@@ -1,0 +1,149 @@
+📅 Tag 1: Streams & Lambdas (Grundlagen)
+
+🎯 Ziel: Verstehen, wie Streams und Lambdas in Java funktionieren.
+
+📖 Lernen
+
+    Lies die Infozettel Stream Grundlagen + cs.lambdas.
+    Teste einfache Lambdas ((x) -> x * 2, s -> s.toUpperCase()).
+    Streams starten: .stream(), .forEach(), .map(), .filter().
+
+✍ Übungen
+✅ Schreibe ein Programm, das eine Liste von Strings in Großbuchstaben umwandelt.
+✅ Filtere eine Liste von Zahlen, um nur die geraden auszugeben.
+
+---
+
+📅 Tag 2: Datenstrukturen & Objektvergleich
+
+🎯 Ziel: Listen, Sets, Maps & equals() / hashCode() verstehen.
+
+📖 Lernen
+
+    Datenstrukturen: Lies OOP.10 Datenstrukturen & Collections.
+    Objektvergleich: Lies OOP.09 Objekte vergleichen.
+
+✍ Übungen
+✅ Erstelle eine List<Student>, sortiere nach Alter.
+✅ Teste equals() und hashCode() mit eigenen Klassen.
+
+---
+
+📅 Tag 3: Streams in der Tiefe (map, filter, flatMap)
+
+🎯 Ziel: Streams effizient nutzen.
+
+📖 Lernen
+
+    Lies den Infozettel Stream Operationen.
+    Verstehe map(), filter(), flatMap(), sorted().
+
+✍ Übungen
+✅ Filtere eine Liste von Namen, die mit "A" beginnen.
+✅ Nutze flatMap(), um eine Liste von Listen zu einer Liste zu machen.
+
+---
+
+📅 Tag 4: Reduktion & Optional
+
+🎯 Ziel: Daten mit reduce() & collect() verarbeiten.
+
+📖 Lernen
+
+    Lies den Infozettel Stream Reduktion.
+    Verstehe collect(Collectors.toList()), reduce().
+    Lies den Infozettel Optional & vermeide NullPointerExceptions.
+
+✍ Übungen
+✅ Summiere eine Liste von Zahlen mit reduce().
+✅ Gib den längsten Namen in einer Liste mit reduce() zurück.
+
+---
+
+📅 Tag 5: Parallelisierung & Evaluation von Streams
+
+🎯 Ziel: Streams parallelisieren & Performance verstehen.
+
+📖 Lernen
+
+    Lies den Infozettel Parallelisierung von Datenströmen.
+    Lies den Infozettel Stream Evaluation (Lazy vs. Eager Evaluation).
+
+✍ Übungen
+✅ Erzeuge einen parallelStream() und vergleiche die Performance.
+✅ Teste den Unterschied zwischen findFirst() und findAny().
+
+---
+
+📅 Tag 6: Moderne Java-Programmierung (Records & Enums)
+
+🎯 Ziel: Moderne Features wie Records & Enums verstehen.
+
+📖 Lernen
+
+    Lies Programmierzettel Records (Ersatz für Datenklassen).
+    Lies OOP.16 Enumerationen (Enums) – bessere Konstanten.
+
+✍ Übungen
+✅ Erstelle einen Record Student(name, age, id).
+✅ Nutze ein Enum Weekday, um zu prüfen, ob ein Tag ein Werktag ist.
+
+---
+
+📅 Tag 7: Geschachtelte Klassen & fortgeschrittene Streams
+
+🎯 Ziel: Innere Klassen & komplexere Streams meistern.
+
+📖 Lernen
+
+    Lies OOP.15 Geschachtelte Klassen (Nested Classes).
+    Lies Infozettel Tipps & Tricks für Streams.
+
+✍ Übungen
+✅ Erstelle eine innere Klasse Engine in einer Klasse Car.
+✅ Nutze peek() in Streams, um Debugging zu machen.
+
+---
+
+📅 Tag 8: Von traditionellem zu modernem Java
+
+🎯 Ziel: Älteren Code in moderne Streams & Lambdas umwandeln.
+
+📖 Lernen
+
+    Lies "Vom traditionellen zum modernen Java".
+    Lerne, wie man for-Schleifen durch Streams ersetzt.
+
+✍ Übungen
+✅ Ersetze eine for-Schleife mit forEach().
+✅ Konvertiere eine if-else-Struktur mit Optional.
+
+---
+
+📅 Tag 9: Wiederholen, Code schreiben & Prüfungssimulation
+
+🎯 Ziel: Alles Gelernte anwenden & sicher werden.
+
+📖 Lernen
+
+    Gehe deine Notizen durch & schließe Wissenslücken.
+    Schreibe ein kleines Projekt, das Streams, Collections & Enums kombiniert.
+
+✍ Übungen
+✅ Erstelle ein Programm, das eine CSV-Datei mit Streams verarbeitet.
+✅ Erstelle eine kleine App mit Records, Streams und Enums.
+
+
+
+📌 Wichtige Tipps für deinen Erfolg
+
+✅ Jeden Tag eine kleine Wiederholung.
+✅ Schreibe Code – nicht nur lesen!
+✅ Verwende die JShell für schnelle Tests.
+✅ Arbeite mit echten Daten, um Streams zu verstehen.
+✅ Nutze System.out.println() für Debugging, falls nötig.
+
+
+🎯 Fazit: Du kannst das in 9 Tagen packen!
+
+Wenn du dich an diesen Plan hältst und täglich 3-5 Stunden gezielt lernst und programmierst, hast du nach 9 Tagen ein solides Verständnis für moderne Java-Techniken.
