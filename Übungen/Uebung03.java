@@ -71,4 +71,28 @@ class Beverage {
         this.size = size;
         return this;
     }
+
 }
+
+class Calc {
+    // Methoden die auf das Funktionsobjekt calc verweisen
+    // Addieren
+    Calculator add = (a, b) -> a + b;
+    // Subtrahieren
+    Calculator sub = (a, b) -> a - b;
+    // Multiplizieren 
+    Calculator mul = (a, b) -> a * b;
+    // Dividieren
+    Calculator div = (a, b) -> a / b;
+}
+
+@FunctionalInterface interface Calculator {
+    double calc(double a, double b);
+}
+
+/*
+Calc c = new Calc()
+c ==> Calc@42e26948
+c.add.calc(1, 3)
+$23 ==> 4.0
+*/
