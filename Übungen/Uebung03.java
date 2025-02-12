@@ -24,4 +24,51 @@ class Uebung03 {
     List<Student> getOver20() {
         return students.stream().filter(n -> n.age() > 20).toList();
     }
+
+    // forEach-Übungen
+    List<String> friends = Arrays.asList("Liam", "Kim", "Laura");
+
+    void listFriends() {
+        friends.forEach(f -> System.out.println(f.toUpperCase()));
+
+    }
+
+    // forEach mit meht Dimensionen
+    List<List<String>> multiDimList = Arrays.asList(
+                                        Arrays.asList("a", "b"),
+                                        Arrays.asList("c", "d"));
+
+    void listDim() {
+        multiDimList.forEach(dim -> dim.forEach(d -> System.out.println(d.toUpperCase())));
+    }
+}
+
+/*
+Beverage cola = new Beverage();
+cola.setName("Cola");
+cola.setPrice(0.5);
+cola.setSize(0.3);
+*/
+
+class Beverage {
+    private String name;
+    private double price;
+    private double size;
+
+    Beverage() {}
+
+    Beverage setName(String name) {
+        this.name = name;
+        return this;
+    }
+
+    Beverage setPrice(double price) {
+        this.price = price;
+        return this;
+    }
+
+    Beverage setSize(double size) {
+        this.size = size;
+        return this;
+    }
 }
