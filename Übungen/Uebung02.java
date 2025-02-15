@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Uebung02 {
-    ArrayList<String> students;
+    List<String> students;
     LinkedList<String> applications;
     Map<String, List<String>> courses;
 

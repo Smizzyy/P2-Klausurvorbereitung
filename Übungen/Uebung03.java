@@ -74,6 +74,11 @@ class Beverage {
 
 }
 
+@FunctionalInterface interface Calculator {
+    double calc(double a, double b);
+}
+
+
 class Calc {
     // Methoden die auf das Funktionsobjekt calc verweisen
     // Addieren
@@ -85,11 +90,6 @@ class Calc {
     // Dividieren
     Calculator div = (a, b) -> a / b;
 }
-
-@FunctionalInterface interface Calculator {
-    double calc(double a, double b);
-}
-
 /*
 Calc c = new Calc()
 c ==> Calc@42e26948
