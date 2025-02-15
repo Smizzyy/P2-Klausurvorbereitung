@@ -23,7 +23,7 @@ class Rectangel {
 
     // 2)
     @Override public int hashCode() {
-        return Objects.hash(width, height);
+        return Objects.hash(height, width);
     }
 }
 
