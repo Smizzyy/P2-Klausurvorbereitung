@@ -33,7 +33,7 @@ class Uebung03 {
 
     }
 
-    // forEach mit meht Dimensionen
+    // forEach mit mehr Dimensionen
     List<List<String>> multiDimList = Arrays.asList(
                                         Arrays.asList("a", "b"),
                                         Arrays.asList("c", "d"));
