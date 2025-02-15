@@ -75,4 +75,11 @@ class Uebung04 {
     }
 
     List<String> chooseStartChar = cars2.stream().filter(startWith("P")).toList();
+    
+
+    // mit Set 
+
+    List<Set<Integer>> setNumbers2D = Arrays.asList(Set.of(1, 2, 3, 4, 5), Set.of(5, 7, 8, 9, 10));
+
+    List<Integer> newSetNumbers = numbers2D.stream().flatMap(List::stream).collect(Collectors.toList());
 }
